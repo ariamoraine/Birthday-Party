@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Birthday Party</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_activity_main">ActivityMain</string>
+    <string name="Check_birthday">Is it your Birthday?</string> 
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+	<string name="itis">Happy Birthday!</string>
+	<string name="isnot">Looks like you have to wait some more</string>
+</resources>

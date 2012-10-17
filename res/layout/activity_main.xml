@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/Check_birthday"
+        android:textSize="35dp"
+        tools:context=".ActivityMain" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="90dp"
+        android:clickable="true"
+        android:onClick="Birthdaycake"
+        android:text="@string/Yes" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:onClick="sorry"
+        android:text="@string/No" />
+    <ImageView  
+        android:id="@+id/cake_view"  
+        android:layout_height="240dp"  
+        android:layout_width="360dp"  
+        android:layout_centerHorizontal="true"  
+        android:src="@drawable/birthdaycake"
+        android:visibility="gone"></ImageView>
+
+</RelativeLayout>
